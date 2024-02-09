@@ -24,13 +24,13 @@ To run AstroZee locally on your machine, follow these steps:
 1. Clone the repository:
 
    ```bash
-         git clone <repository-url>
+   git clone https://github.com/Sriram-Sahoo/AstroZee.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-       cd AstroZee
+   cd AstroZee
    ```
 
 3. Install dependencies:
