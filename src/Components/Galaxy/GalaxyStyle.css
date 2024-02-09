@@ -1,0 +1,117 @@
+.GalaxyBody {
+    background: linear-gradient(12deg,#000, #050b11);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 4s ease infinite;
+    -moz-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+
+
+
+
+.GalaxyImg{
+    /* object-fit: contain; */
+    object-position: center;
+}
+.GalaxyImg:hover{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.GalaxyTop p{
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight:500;
+    color: #596a7b;
+}
+
+.GalaxyContent h1{
+ color:rgb(36, 66, 164);
+}
+
+.GalaxyContent img{
+    opacity: 0.8;
+}
+
+.GalaxyContent img:hover{
+  box-shadow: 0 0 50px rgb(39, 46, 70);
+}
+
+
+
+
+
+
+
+#progress{
+    position: relative;
+    transform: rotate(-90deg);
+}
+
+circle {
+    stroke-dashoffset: 0;
+    stroke-width: 15%;
+    fill: none;
+  }
+
+
+.bg {
+    stroke: rgb(251, 248, 248);
+    opacity: 0.3;
+}
+
+.indicator {
+    stroke: rgb(7, 57, 192);
+}
+
+.GalaxySlider{
+    display: flex;
+    list-style: none;
+    height: 300px;
+    overflow-x: scroll;
+    padding: 20px 0;
+    flex: 0 0 600px;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: rgba(184, 181, 181, 0.283);
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(7, 57, 192);
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: rgba(252, 251, 251, 0.279);
+  }
+
+  .GalaxySlider img {
+    flex: 0 0 370px;
+    background: white;
+    margin: 0 20px 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(40, 35, 35, 0.728);
+  }

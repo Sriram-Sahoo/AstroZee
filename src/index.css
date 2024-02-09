@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: 'Comfortaa' sans-serif;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.bgSatelite{
+    background-image: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@layer components {
+    .primary-button{
+        @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+    }
+}
+@layer components {
+    .secondary-button{
+        @apply bg-transparent border-2 border-blue-500 hover:bg-blue-700/50 text-white font-bold py-2 px-4 rounded-lg hover:border-none hover:ease-linear hover:duration-0 ;
+    }
+}

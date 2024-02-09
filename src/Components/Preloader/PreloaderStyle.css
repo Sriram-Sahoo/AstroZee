@@ -1,0 +1,41 @@
+
+
+.loading{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    /* display: none; */
+}
+
+.follow{
+    position: absolute;
+    background-color: rgba(12, 94, 201, 0.897);
+    box-shadow: 0 0 20px rgb(12, 71, 197);
+    height: 8px;
+    width: 0;
+    left: 0;
+    z-index: 100;
+}
+.progressBar{
+    position: absolute;
+    left: 0;
+    height: 8px;
+    width: 0;
+    background-color: #3b3939;
+    transition: 0.4s ease-out;
+}
+.count{
+    position: absolute;
+    font-size: 120px;
+    color: #3b3939;
+    font-weight: 700;
+    transform: translateY(-15px);
+}
+
+

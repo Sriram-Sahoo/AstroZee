@@ -1,0 +1,40 @@
+.NavIcon{
+    display: none;
+}
+
+
+@media (max-width:780px){
+    /* .NavList{
+    display: none;
+  } */
+  .NavIcon{
+    display: block;
+  }
+  
+  nav ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: rgba(2, 14, 45, 0.82);
+    transition: 0.6s;
+    transform: translateY(-100vh);
+  }
+  .responsive_nav{
+    transform: none;
+  }
+
+  .NavCloseIcon{
+    position: absolute;
+    top: 3.7vw;
+    right: 3.7vw;
+  }
+
+
+}
